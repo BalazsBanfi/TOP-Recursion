@@ -1,4 +1,4 @@
-# The Odin Project - Project: Recursion
+# The Odin Project - Recursion
 
 This is a solution to the [The Odin Project Recursion project](https://www.theodinproject.com/lessons/javascript-recursion). The Odin Project challenges help you improve your coding skills by building realistic projects. 
 
