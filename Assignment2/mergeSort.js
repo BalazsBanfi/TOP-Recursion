@@ -18,6 +18,9 @@ function mergeSort(arr) {
   return merge(mergeSort(arr.slice(0, mid)), mergeSort(arr.slice(mid)));
 }
 
-console.log(mergeSort([2, 33, 21, 5, 0, 11, 124, 25]));
-console.log(mergeSort([42, 3, 21, 55, 50, 11, 14, 25]));
-console.log(mergeSort([42, 3, 21, 55, 50, 11, 14, 25, 1232, 5565432, 22, 12123, 331, 12, 22, -44, -54]));
+console.log('original ', [2, 33, 21, 5, 0, 11, 124, 25]);
+console.log('sorted ', mergeSort([2, 33, 21, 5, 0, 11, 124, 25]));
+console.log('original ', [42, 3, 21, 55, 50, 11, 14, 25]);
+console.log('sorted ', mergeSort([42, 3, 21, 55, 50, 11, 14, 25]));
+console.log('original ', [42, 3, 21, 55, 50, 11, 14, 25, 1232, 5565432, 22, 12123, 331, 12, 22, -44, -54]);
+console.log('sorted ', mergeSort([42, 3, 21, 55, 50, 11, 14, 25, 1232, 5565432, 22, 12123, 331, 12, 22, -44, -54]));
